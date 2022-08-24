@@ -9,7 +9,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/AndroidProjects/MVVMTodo/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Projects/AndroidProjects/MVVMTodo/app/src/main/res/layout/fragment_add_edit_tast.xml" value="0.27708333333333335" />
         <entry key="..\:/Projects/AndroidProjects/MVVMTodo/app/src/main/res/layout/fragment_tasks.xml" value="0.18802083333333333" />
+        <entry key="..\:/Projects/AndroidProjects/MVVMTodo/app/src/main/res/layout/item_task.xml" value="0.27708333333333335" />
         <entry key="..\:/Users/captwb/StudioProjects/MVVMTodo/app/src/main/res/drawable/ic_add.xml" value="0.236" />
         <entry key="..\:/Users/captwb/StudioProjects/MVVMTodo/app/src/main/res/drawable/ic_priority.xml" value="0.236" />
         <entry key="..\:/Users/captwb/StudioProjects/MVVMTodo/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
