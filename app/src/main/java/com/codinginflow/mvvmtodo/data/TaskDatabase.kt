@@ -19,6 +19,7 @@ abstract class TaskDatabase : RoomDatabase() {
         private val database: Provider<TaskDatabase>,
         @ApplicationScope private val applicationScope: CoroutineScope
     ): RoomDatabase.Callback() {
+
         override fun onCreate(db: SupportSQLiteDatabase) {
             super.onCreate(db)
 
@@ -28,6 +29,11 @@ abstract class TaskDatabase : RoomDatabase() {
             applicationScope.launch {
                 dao.insert(Task("Wash the dishes"))
                 dao.insert(Task("Buy groceries", isImportant = true))
+                dao.insert(Task("Task #3"))
+                dao.insert(Task("Call grandma", isCompleted = true))
+                dao.insert(Task("Find money for college", isImportant = true))
+                dao.insert(Task("Wait till monday"))
+
             }
         }
     }
